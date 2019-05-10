@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56251AD2285CC4300D938DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251AC2285CC4300D938DA /* AppDelegate.swift */; };
+		A56251AF2285CC4300D938DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251AE2285CC4300D938DA /* ViewController.swift */; };
+		A56251B22285CC4300D938DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56251B02285CC4300D938DA /* Main.storyboard */; };
+		A56251B42285CC4400D938DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56251B32285CC4400D938DA /* Assets.xcassets */; };
+		A56251B72285CC4500D938DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56251B52285CC4500D938DA /* LaunchScreen.storyboard */; };
+		A56251C22285CC4500D938DA /* ShroomRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251C12285CC4500D938DA /* ShroomRoomTests.swift */; };
+		A56251CD2285CC4500D938DA /* ShroomRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251CC2285CC4500D938DA /* ShroomRoomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56251BE2285CC4500D938DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56251A12285CC4300D938DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56251A82285CC4300D938DA;
+			remoteInfo = ShroomRoom;
+		};
+		A56251C92285CC4500D938DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56251A12285CC4300D938DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56251A82285CC4300D938DA;
+			remoteInfo = ShroomRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56251A92285CC4300D938DA /* ShroomRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56251AC2285CC4300D938DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A56251AE2285CC4300D938DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A56251B12285CC4300D938DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A56251B32285CC4400D938DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56251B62285CC4500D938DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A56251B82285CC4500D938DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56251BD2285CC4500D938DA /* ShroomRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShroomRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56251C12285CC4500D938DA /* ShroomRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomRoomTests.swift; sourceTree = "<group>"; };
+		A56251C32285CC4500D938DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56251C82285CC4500D938DA /* ShroomRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShroomRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56251CC2285CC4500D938DA /* ShroomRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomRoomUITests.swift; sourceTree = "<group>"; };
+		A56251CE2285CC4500D938DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56251A62285CC4300D938DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56251BA2285CC4500D938DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56251C52285CC4500D938DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56251A02285CC4300D938DA = {
+			isa = PBXGroup;
+			children = (
+				A56251AB2285CC4300D938DA /* ShroomRoom */,
+				A56251C02285CC4500D938DA /* ShroomRoomTests */,
+				A56251CB2285CC4500D938DA /* ShroomRoomUITests */,
+				A56251AA2285CC4300D938DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56251AA2285CC4300D938DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56251A92285CC4300D938DA /* ShroomRoom.app */,
+				A56251BD2285CC4500D938DA /* ShroomRoomTests.xctest */,
+				A56251C82285CC4500D938DA /* ShroomRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56251AB2285CC4300D938DA /* ShroomRoom */ = {
+			isa = PBXGroup;
+			children = (
+				A56251AC2285CC4300D938DA /* AppDelegate.swift */,
+				A56251AE2285CC4300D938DA /* ViewController.swift */,
+				A56251B02285CC4300D938DA /* Main.storyboard */,
+				A56251B32285CC4400D938DA /* Assets.xcassets */,
+				A56251B52285CC4500D938DA /* LaunchScreen.storyboard */,
+				A56251B82285CC4500D938DA /* Info.plist */,
+			);
+			path = ShroomRoom;
+			sourceTree = "<group>";
+		};
+		A56251C02285CC4500D938DA /* ShroomRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				A56251C12285CC4500D938DA /* ShroomRoomTests.swift */,
+				A56251C32285CC4500D938DA /* Info.plist */,
+			);
+			path = ShroomRoomTests;
+			sourceTree = "<group>";
+		};
+		A56251CB2285CC4500D938DA /* ShroomRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A56251CC2285CC4500D938DA /* ShroomRoomUITests.swift */,
+				A56251CE2285CC4500D938DA /* Info.plist */,
+			);
+			path = ShroomRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56251A82285CC4300D938DA /* ShroomRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56251D12285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoom" */;
+			buildPhases = (
+				A56251A52285CC4300D938DA /* Sources */,
+				A56251A62285CC4300D938DA /* Frameworks */,
+				A56251A72285CC4300D938DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShroomRoom;
+			productName = ShroomRoom;
+			productReference = A56251A92285CC4300D938DA /* ShroomRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A56251BC2285CC4500D938DA /* ShroomRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56251D42285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoomTests" */;
+			buildPhases = (
+				A56251B92285CC4500D938DA /* Sources */,
+				A56251BA2285CC4500D938DA /* Frameworks */,
+				A56251BB2285CC4500D938DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56251BF2285CC4500D938DA /* PBXTargetDependency */,
+			);
+			name = ShroomRoomTests;
+			productName = ShroomRoomTests;
+			productReference = A56251BD2285CC4500D938DA /* ShroomRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A56251C72285CC4500D938DA /* ShroomRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56251D72285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoomUITests" */;
+			buildPhases = (
+				A56251C42285CC4500D938DA /* Sources */,
+				A56251C52285CC4500D938DA /* Frameworks */,
+				A56251C62285CC4500D938DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56251CA2285CC4500D938DA /* PBXTargetDependency */,
+			);
+			name = ShroomRoomUITests;
+			productName = ShroomRoomUITests;
+			productReference = A56251C82285CC4500D938DA /* ShroomRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56251A12285CC4300D938DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Indrajit Chavan";
+				TargetAttributes = {
+					A56251A82285CC4300D938DA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A56251BC2285CC4500D938DA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A56251A82285CC4300D938DA;
+					};
+					A56251C72285CC4500D938DA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A56251A82285CC4300D938DA;
+					};
+				};
+			};
+			buildConfigurationList = A56251A42285CC4300D938DA /* Build configuration list for PBXProject "ShroomRoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56251A02285CC4300D938DA;
+			productRefGroup = A56251AA2285CC4300D938DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56251A82285CC4300D938DA /* ShroomRoom */,
+				A56251BC2285CC4500D938DA /* ShroomRoomTests */,
+				A56251C72285CC4500D938DA /* ShroomRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56251A72285CC4300D938DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56251B72285CC4500D938DA /* LaunchScreen.storyboard in Resources */,
+				A56251B42285CC4400D938DA /* Assets.xcassets in Resources */,
+				A56251B22285CC4300D938DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56251BB2285CC4500D938DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56251C62285CC4500D938DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56251A52285CC4300D938DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56251AF2285CC4300D938DA /* ViewController.swift in Sources */,
+				A56251AD2285CC4300D938DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56251B92285CC4500D938DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56251C22285CC4500D938DA /* ShroomRoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56251C42285CC4500D938DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56251CD2285CC4500D938DA /* ShroomRoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A56251BF2285CC4500D938DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56251A82285CC4300D938DA /* ShroomRoom */;
+			targetProxy = A56251BE2285CC4500D938DA /* PBXContainerItemProxy */;
+		};
+		A56251CA2285CC4500D938DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56251A82285CC4300D938DA /* ShroomRoom */;
+			targetProxy = A56251C92285CC4500D938DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56251B02285CC4300D938DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56251B12285CC4300D938DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A56251B52285CC4500D938DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56251B62285CC4500D938DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56251CF2285CC4500D938DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A56251D02285CC4500D938DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56251D22285CC4500D938DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2BP2G2G26;
+				INFOPLIST_FILE = ShroomRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A56251D32285CC4500D938DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2BP2G2G26;
+				INFOPLIST_FILE = ShroomRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A56251D52285CC4500D938DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2BP2G2G26;
+				INFOPLIST_FILE = ShroomRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShroomRoom.app/ShroomRoom";
+			};
+			name = Debug;
+		};
+		A56251D62285CC4500D938DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2BP2G2G26;
+				INFOPLIST_FILE = ShroomRoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShroomRoom.app/ShroomRoom";
+			};
+			name = Release;
+		};
+		A56251D82285CC4500D938DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2BP2G2G26;
+				INFOPLIST_FILE = ShroomRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShroomRoom;
+			};
+			name = Debug;
+		};
+		A56251D92285CC4500D938DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2BP2G2G26;
+				INFOPLIST_FILE = ShroomRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShroomRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56251A42285CC4300D938DA /* Build configuration list for PBXProject "ShroomRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56251CF2285CC4500D938DA /* Debug */,
+				A56251D02285CC4500D938DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56251D12285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56251D22285CC4500D938DA /* Debug */,
+				A56251D32285CC4500D938DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56251D42285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56251D52285CC4500D938DA /* Debug */,
+				A56251D62285CC4500D938DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56251D72285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56251D82285CC4500D938DA /* Debug */,
+				A56251D92285CC4500D938DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A56251A12285CC4300D938DA /* Project object */;
+}
