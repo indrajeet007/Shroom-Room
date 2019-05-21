@@ -6,8 +6,8 @@ Clone the project, launch in Xcode. Model file has not been included, but i'll a
 
 ### Prerequisites
 
-Xcode: 9.0+
-iOS Version: 11.4+
+* Xcode: 9.0+
+* iOS Version: 11.4+
 
 ## Built With
 
