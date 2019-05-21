@@ -9,7 +9,7 @@
 import UIKit
 import expanding_collection
 
-class UICollectionViewCell: BasePageCollectionCell {
+class ExpandCollectionViewCell: BasePageCollectionCell {
     
     @IBOutlet var backgroundImageView: UIImageView!
     @IBOutlet var customTitle: UILabel!
