@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033A1AFEF1BCB7C80ACE94C0 /* Pods_ShroomRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5125A30CA308203A2C0D4898 /* Pods_ShroomRoom.framework */; };
+		4923A524B7D11DE9F2ED5387 /* Pods_ShroomRoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4089980818F0CCD531BD84A5 /* Pods_ShroomRoomTests.framework */; };
+		5FAEB04E5850752A0EE5F7AC /* Pods_ShroomRoomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E454EB3EF115627B70CF19 /* Pods_ShroomRoomUITests.framework */; };
 		A56251AD2285CC4300D938DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251AC2285CC4300D938DA /* AppDelegate.swift */; };
 		A56251AF2285CC4300D938DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251AE2285CC4300D938DA /* ViewController.swift */; };
 		A56251B22285CC4300D938DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56251B02285CC4300D938DA /* Main.storyboard */; };
@@ -14,6 +17,16 @@
 		A56251B72285CC4500D938DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56251B52285CC4500D938DA /* LaunchScreen.storyboard */; };
 		A56251C22285CC4500D938DA /* ShroomRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251C12285CC4500D938DA /* ShroomRoomTests.swift */; };
 		A56251CD2285CC4500D938DA /* ShroomRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56251CC2285CC4500D938DA /* ShroomRoomUITests.swift */; };
+		A5CA3439228E8FAD007A2238 /* MushroomDataset.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A5CA3438228E8FAD007A2238 /* MushroomDataset.mlmodel */; };
+		A5CA343B228E90C6007A2238 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA343A228E90C6007A2238 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		A5CA344A228EC351007A2238 /* ExpandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA3448228EC351007A2238 /* ExpandCollectionViewCell.swift */; };
+		A5CA344B228EC351007A2238 /* ExpandCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5CA3449228EC351007A2238 /* ExpandCollectionViewCell.xib */; };
+		A5CA344E228EC5B7007A2238 /* ExpandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA344D228EC5B7007A2238 /* ExpandViewController.swift */; };
+		A5CA3454228EC80A007A2238 /* CollectionViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA3453228EC80A007A2238 /* CollectionViewHelper.swift */; };
+		A5CA3456228EC82F007A2238 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA3455228EC82F007A2238 /* StoryboardHelper.swift */; };
+		A5CA3459228EC92F007A2238 /* AnimationBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA3458228EC92F007A2238 /* AnimationBarButton.swift */; };
+		A5CA345B228EC998007A2238 /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA345A228EC998007A2238 /* Rotatable.swift */; };
+		A5CA3466228F14AC007A2238 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5CA3465228F14AC007A2238 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11E454EB3EF115627B70CF19 /* Pods_ShroomRoomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShroomRoomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4089980818F0CCD531BD84A5 /* Pods_ShroomRoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShroomRoomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		511F281539AB4ED08F9FB982 /* Pods-ShroomRoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShroomRoomUITests.release.xcconfig"; path = "Target Support Files/Pods-ShroomRoomUITests/Pods-ShroomRoomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5125A30CA308203A2C0D4898 /* Pods_ShroomRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShroomRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED864C2FEAE1A27810F29DA /* Pods-ShroomRoomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShroomRoomUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShroomRoomUITests/Pods-ShroomRoomUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A56251A92285CC4300D938DA /* ShroomRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShroomRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56251AC2285CC4300D938DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56251AE2285CC4300D938DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,20 @@
 		A56251C82285CC4500D938DA /* ShroomRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShroomRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56251CC2285CC4500D938DA /* ShroomRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShroomRoomUITests.swift; sourceTree = "<group>"; };
 		A56251CE2285CC4500D938DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CA3438228E8FAD007A2238 /* MushroomDataset.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MushroomDataset.mlmodel; path = ../../Mushroom/DemoExpandingCollection/DemoExpandingCollection/MushroomDataset.mlmodel; sourceTree = "<group>"; };
+		A5CA343A228E90C6007A2238 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		A5CA3448228EC351007A2238 /* ExpandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5CA3449228EC351007A2238 /* ExpandCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandCollectionViewCell.xib; sourceTree = "<group>"; };
+		A5CA344D228EC5B7007A2238 /* ExpandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandViewController.swift; sourceTree = "<group>"; };
+		A5CA3453228EC80A007A2238 /* CollectionViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHelper.swift; sourceTree = "<group>"; };
+		A5CA3455228EC82F007A2238 /* StoryboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		A5CA3458228EC92F007A2238 /* AnimationBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBarButton.swift; sourceTree = "<group>"; };
+		A5CA345A228EC998007A2238 /* Rotatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotatable.swift; sourceTree = "<group>"; };
+		A5CA3465228F14AC007A2238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8D62A80EF6CA9806C92203F /* Pods-ShroomRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShroomRoom.debug.xcconfig"; path = "Target Support Files/Pods-ShroomRoom/Pods-ShroomRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		B747FE55C0518D7EB67F0CFE /* Pods-ShroomRoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShroomRoomTests.release.xcconfig"; path = "Target Support Files/Pods-ShroomRoomTests/Pods-ShroomRoomTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA8A26FCCA0F6298D4A0B242 /* Pods-ShroomRoomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShroomRoomTests.debug.xcconfig"; path = "Target Support Files/Pods-ShroomRoomTests/Pods-ShroomRoomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E27E1CB9D715614C2A357AE3 /* Pods-ShroomRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShroomRoom.release.xcconfig"; path = "Target Support Files/Pods-ShroomRoom/Pods-ShroomRoom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033A1AFEF1BCB7C80ACE94C0 /* Pods_ShroomRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4923A524B7D11DE9F2ED5387 /* Pods_ShroomRoomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAEB04E5850752A0EE5F7AC /* Pods_ShroomRoomUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6114014E1DDED4130CCD612C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8D62A80EF6CA9806C92203F /* Pods-ShroomRoom.debug.xcconfig */,
+				E27E1CB9D715614C2A357AE3 /* Pods-ShroomRoom.release.xcconfig */,
+				DA8A26FCCA0F6298D4A0B242 /* Pods-ShroomRoomTests.debug.xcconfig */,
+				B747FE55C0518D7EB67F0CFE /* Pods-ShroomRoomTests.release.xcconfig */,
+				8ED864C2FEAE1A27810F29DA /* Pods-ShroomRoomUITests.debug.xcconfig */,
+				511F281539AB4ED08F9FB982 /* Pods-ShroomRoomUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A56251A02285CC4300D938DA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				A56251C02285CC4500D938DA /* ShroomRoomTests */,
 				A56251CB2285CC4500D938DA /* ShroomRoomUITests */,
 				A56251AA2285CC4300D938DA /* Products */,
+				6114014E1DDED4130CCD612C /* Pods */,
+				E5847EFBD570B3F734E6B1A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +147,19 @@
 		A56251AB2285CC4300D938DA /* ShroomRoom */ = {
 			isa = PBXGroup;
 			children = (
+				A5CA3457228EC8FC007A2238 /* Views */,
+				A5CA3452228EC7D8007A2238 /* Helpers */,
+				A5CA344C228EC557007A2238 /* Cells */,
 				A56251AC2285CC4300D938DA /* AppDelegate.swift */,
 				A56251AE2285CC4300D938DA /* ViewController.swift */,
 				A56251B02285CC4300D938DA /* Main.storyboard */,
 				A56251B32285CC4400D938DA /* Assets.xcassets */,
 				A56251B52285CC4500D938DA /* LaunchScreen.storyboard */,
 				A56251B82285CC4500D938DA /* Info.plist */,
+				A5CA3438228E8FAD007A2238 /* MushroomDataset.mlmodel */,
+				A5CA343A228E90C6007A2238 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				A5CA344D228EC5B7007A2238 /* ExpandViewController.swift */,
+				A5CA3465228F14AC007A2238 /* GoogleService-Info.plist */,
 			);
 			path = ShroomRoom;
 			sourceTree = "<group>";
@@ -125,6 +182,43 @@
 			path = ShroomRoomUITests;
 			sourceTree = "<group>";
 		};
+		A5CA344C228EC557007A2238 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA3448228EC351007A2238 /* ExpandCollectionViewCell.swift */,
+				A5CA3449228EC351007A2238 /* ExpandCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A5CA3452228EC7D8007A2238 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA3453228EC80A007A2238 /* CollectionViewHelper.swift */,
+				A5CA3455228EC82F007A2238 /* StoryboardHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A5CA3457228EC8FC007A2238 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA3458228EC92F007A2238 /* AnimationBarButton.swift */,
+				A5CA345A228EC998007A2238 /* Rotatable.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5847EFBD570B3F734E6B1A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5125A30CA308203A2C0D4898 /* Pods_ShroomRoom.framework */,
+				4089980818F0CCD531BD84A5 /* Pods_ShroomRoomTests.framework */,
+				11E454EB3EF115627B70CF19 /* Pods_ShroomRoomUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A56251D12285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoom" */;
 			buildPhases = (
+				B675E4EF06BE25E4CD171CC3 /* [CP] Check Pods Manifest.lock */,
 				A56251A52285CC4300D938DA /* Sources */,
 				A56251A62285CC4300D938DA /* Frameworks */,
 				A56251A72285CC4300D938DA /* Resources */,
+				8B5877C167DDBD82F1BE3362 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A56251D42285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoomTests" */;
 			buildPhases = (
+				58F7C8BB0907CF884E47A6D4 /* [CP] Check Pods Manifest.lock */,
 				A56251B92285CC4500D938DA /* Sources */,
 				A56251BA2285CC4500D938DA /* Frameworks */,
 				A56251BB2285CC4500D938DA /* Resources */,
@@ -167,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A56251D72285CC4500D938DA /* Build configuration list for PBXNativeTarget "ShroomRoomUITests" */;
 			buildPhases = (
+				A46662F0B2CD7B1820BB304C /* [CP] Check Pods Manifest.lock */,
 				A56251C42285CC4500D938DA /* Sources */,
 				A56251C52285CC4500D938DA /* Frameworks */,
 				A56251C62285CC4500D938DA /* Resources */,
@@ -231,6 +329,8 @@
 			files = (
 				A56251B72285CC4500D938DA /* LaunchScreen.storyboard in Resources */,
 				A56251B42285CC4400D938DA /* Assets.xcassets in Resources */,
+				A5CA3466228F14AC007A2238 /* GoogleService-Info.plist in Resources */,
+				A5CA344B228EC351007A2238 /* ExpandCollectionViewCell.xib in Resources */,
 				A56251B22285CC4300D938DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +351,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58F7C8BB0907CF884E47A6D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShroomRoomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5877C167DDBD82F1BE3362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShroomRoom/Pods-ShroomRoom-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/expanding_collection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShroomRoom/Pods-ShroomRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46662F0B2CD7B1820BB304C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShroomRoomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B675E4EF06BE25E4CD171CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShroomRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A56251A52285CC4300D938DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A56251AF2285CC4300D938DA /* ViewController.swift in Sources */,
+				A5CA344A228EC351007A2238 /* ExpandCollectionViewCell.swift in Sources */,
+				A5CA3459228EC92F007A2238 /* AnimationBarButton.swift in Sources */,
 				A56251AD2285CC4300D938DA /* AppDelegate.swift in Sources */,
+				A5CA344E228EC5B7007A2238 /* ExpandViewController.swift in Sources */,
+				A5CA3439228E8FAD007A2238 /* MushroomDataset.mlmodel in Sources */,
+				A5CA343B228E90C6007A2238 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				A5CA345B228EC998007A2238 /* Rotatable.swift in Sources */,
+				A5CA3456228EC82F007A2238 /* StoryboardHelper.swift in Sources */,
+				A5CA3454228EC80A007A2238 /* CollectionViewHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,13 +558,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -418,18 +614,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A56251D22285CC4500D938DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D62A80EF6CA9806C92203F /* Pods-ShroomRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,15 +637,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.ShroomRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A56251D32285CC4500D938DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27E1CB9D715614C2A357AE3 /* Pods-ShroomRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,21 +656,23 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.ShroomRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		A56251D52285CC4500D938DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8A26FCCA0F6298D4A0B242 /* Pods-ShroomRoomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2BP2G2G26;
 				INFOPLIST_FILE = ShroomRoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShroomRoom.app/ShroomRoom";
 			};
@@ -487,12 +688,14 @@
 		};
 		A56251D62285CC4500D938DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B747FE55C0518D7EB67F0CFE /* Pods-ShroomRoomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2BP2G2G26;
 				INFOPLIST_FILE = ShroomRoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.indrajitchavan.project.ShroomRoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShroomRoom.app/ShroomRoom";
 			};
@@ -508,6 +711,7 @@
 		};
 		A56251D82285CC4500D938DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED864C2FEAE1A27810F29DA /* Pods-ShroomRoomUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +732,7 @@
 		};
 		A56251D92285CC4500D938DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511F281539AB4ED08F9FB982 /* Pods-ShroomRoomUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
