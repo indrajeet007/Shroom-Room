@@ -1,4 +1,4 @@
-# Shroom-Room
+# Shroom Room
 
 ## Getting Started
 
