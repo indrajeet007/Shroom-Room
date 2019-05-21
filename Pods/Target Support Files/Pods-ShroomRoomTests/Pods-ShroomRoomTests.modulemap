@@ -1,0 +1,6 @@
+framework module Pods_ShroomRoomTests {
+  umbrella header "Pods-ShroomRoomTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
